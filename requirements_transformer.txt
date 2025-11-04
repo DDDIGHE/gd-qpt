@@ -1,0 +1,19 @@
+# Core dependencies (existing)
+jax>=0.4.13
+jaxlib>=0.4.13
+dm-haiku>=0.0.10
+qutip>=4.7.0
+numpy>=1.22.0
+scipy>=1.9.0
+tqdm>=4.64.0
+
+# Additional for Transformer implementation
+einops>=0.6.0  # For tensor operations and rearrangements
+optax>=0.1.7  # Advanced JAX optimizers
+matplotlib>=3.5.0  # For attention visualization
+tensorboard>=2.11.0  # For training monitoring
+pandas>=1.5.0  # For results tracking
+
+# Optional but recommended
+wandb>=0.13.0  # Experiment tracking
+flax>=0.7.0  # Alternative to Haiku with better transformer support
